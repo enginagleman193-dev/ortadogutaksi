@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-label="TAXI">
+  <title>TAXI</title>
+  <!-- Taxi roof sign: premium, clean, responsive-friendly -->
+  <defs>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Base / stand -->
+  <g filter="url(#softShadow)">
+    <path d="M220 250 C270 190, 630 190, 680 250 L680 270 C680 288, 665 303, 647 303 L253 303 C235 303, 220 288, 220 270 Z"
+          fill="#111111"/>
+    <!-- Light strip -->
+    <path d="M255 255 C298 212, 602 212, 645 255" fill="none" stroke="#FFD400" stroke-width="14" stroke-linecap="round" opacity="0.95"/>
+  </g>
+
+  <!-- Sign body -->
+  <g filter="url(#softShadow)">
+    <rect x="140" y="70" width="620" height="170" rx="42" fill="#FFD400"/>
+    <rect x="160" y="90" width="580" height="130" rx="34" fill="none" stroke="#111111" stroke-width="14"/>
+
+    <!-- Small side chevrons (direction feel) -->
+    <path d="M178 155 l34 -24 v48 z" fill="#111111" opacity="0.9"/>
+    <path d="M722 155 l-34 -24 v48 z" fill="#111111" opacity="0.9"/>
+
+    <!-- Text -->
+    <text x="450" y="188" text-anchor="middle"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
+          font-size="112" font-weight="900" letter-spacing="6"
+          fill="#111111">TAXI</text>
+  </g>
+</svg>
