@@ -11,20 +11,7 @@
   gtag('js', new Date());
   gtag('config', 'G-ZRP993NZXS');
 
-  function gtagSendEvent(url) {
-    var callback = function () {
-      if (typeof url === 'string') window.location = url;
-    };
-    try {
-      gtag('event', 'conversion_event_contact', {
-        'event_callback': callback,
-        'event_timeout': 2000
-      });
-    } catch (e) {
-      callback();
-    }
-    return false;
-  }
+  
 </script>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <link rel="canonical" href="https://ortadogutaksi.com/"/>
